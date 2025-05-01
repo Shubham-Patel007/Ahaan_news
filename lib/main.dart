@@ -8,6 +8,7 @@ void main() {
   runApp(const MyApp());
 }
 
+// Check for github pull request.
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
