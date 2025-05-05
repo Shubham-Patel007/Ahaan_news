@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:templete/core/utils/colors.dart';
+import 'package:ahaan/core/utils/colors.dart';
 
 class CustomText extends StatelessWidget {
   const CustomText({
@@ -21,7 +21,7 @@ class CustomText extends StatelessWidget {
     return Text(
       text,
       style: TextStyle(
-        color: color ?? black,
+        color: color ?? Theme.of(context).colorScheme.primary,
         fontSize: fontSize ?? 14,
         fontWeight: fontWeight ?? FontWeight.normal,
       ),
