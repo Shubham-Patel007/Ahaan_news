@@ -1,5 +1,5 @@
 import 'package:go_router/go_router.dart';
-import 'package:templete/data/view/home.dart';
+import 'package:ahaan/data/view/home.dart';
 
 final route = GoRouter(
   routes: [
