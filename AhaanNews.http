@@ -1,0 +1,6 @@
+@AhaanNews_HostAddress = http://localhost:5048
+
+GET {{AhaanNews_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
